@@ -41,6 +41,8 @@
 }
 
 .speaker_box {
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   overflow: hidden;
 }
