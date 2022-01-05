@@ -53,7 +53,22 @@
 .footer-text{
   color: #121212;
 }
-
+.input{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media (min-width: 720px){
+  .table-width{
+    width: 100%;
+  } 
+}
+@media (min-width: 1080px){
+  .table-width{
+    width: 60%;
+  } 
+}
 @media (min-width: 720px) {
   product-padding{
     padding: 50px;
@@ -184,6 +199,11 @@
   color: #272E35;
 }
 
+.title-text-big-header-4-2 .small-text1{
+  font-weight: 300;
+  font-size: 2rem;
+}
+
 .title-text-small-header-4-2 {
   font-weight: 600;
   margin-bottom: 2rem;
@@ -192,6 +212,11 @@
   color: #272E35;
   padding-left: 0;
   padding-right: 0;
+}
+
+.title-text-small-header-4-2 .small-text2{
+  font-weight: 300;
+  font-size: 2rem;
 }
 
 .div-button-header-4-2 {
